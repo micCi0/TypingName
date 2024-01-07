@@ -1,0 +1,24 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-flow: wrap;
+    background: #0a0c0c;
+}
+.wrapper h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: orange;
+    user-select: none;
+}
